@@ -12,11 +12,11 @@ If you have any questions regarding the test task, you can reach us at dima.lyly
 
 Example of solution interface with the example dataset:
 
-# python solution.py       
+$ python solution.py       
 usage: solution.py [-h] --path PATH 
 solution.py: error: the following arguments are required: --path
 
-# python solution.py --help
+$ python solution.py --help
 usage: solution.py [-h] --path PATH
 
 First test task on images similarity.
@@ -25,12 +25,19 @@ optional arguments:
   -h, --help            show this help message and exit
   --path PATH           folder with images
 
-# python solution.py --path ./dev_dataset 
+$ python solution.py --path ./dev_dataset
+
 4_similar.jpg 4.jpg
+
 11_modification.jpg 11.jpg
+
 11_modification.jpg 11_duplicate.jpg
+
 6_similar.jpg 6.jpg
+
 11.jpg 11_duplicate.jpg
+
 15_modification.jpg 15.jpg
+
 1.jpg 1_duplicate.jpg
 
