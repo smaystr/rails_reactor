@@ -10,7 +10,7 @@ Please send the link to git or gist with your solution here:  https://docs.googl
 Deadline is May 31st 23:59 GMT+3.
 If you have any questions regarding the test task, you can reach us at dima.lylyk@railsreactor.com
 
-Example of solution interface with the example dataset:
+### Example of solution interface with the example dataset:
 
 $ python solution.py       
 usage: solution.py [-h] --path PATH 
@@ -19,7 +19,7 @@ solution.py: error: the following arguments are required: --path
 $ python solution.py --help
 usage: solution.py [-h] --path PATH
 
-First test task on images similarity.
+### First test task on images similarity.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -40,4 +40,5 @@ $ python solution.py --path ./dev_dataset
 15_modification.jpg 15.jpg
 
 1.jpg 1_duplicate.jpg
+
 
