@@ -6,9 +6,7 @@ The task is to develop a console tool which finds similar images in a given fold
 
 The images are marked in the dataset with words in the file names that correspond to the type of similarity. The minimal acceptable solution should be able to find “duplicates”. The complete solution should handle all three types of similarity.
 Also, you are only allowed to use plain python with the standard library and the following libraries: https://pillow.readthedocs.io/en/stable/ and https://www.numpy.org/ . You shouldn't use filenames to identify duplicates and be aware that another dataset will be used for assessing solution performance.
-Please send the link to git or gist with your solution here:  https://docs.google.com/forms/u/1/d/1Vcy_Y3x7mQmubatRNjse16tm32rVrcPlZ31vx30lD10.
-Deadline is May 31st 23:59 GMT+3.
-If you have any questions regarding the test task, you can reach us at dima.lylyk@railsreactor.com
+
 
 ### Example of solution interface with the example dataset:
 ```
