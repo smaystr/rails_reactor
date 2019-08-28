@@ -1,0 +1,9 @@
+1. Logistic Regression models are quite fast and easily interpretable and is less prone to overfitting. Worth using to predict probabilities instead of classes. 
+2. Most important parameters are learning rate, regularization rate, C
+3. Hyperparameter C is the inverse regularization term. Smaller values specify stronger regularization
+4. Most important features heart diseas dataset: sex, cp, thal
+Most important features medical cost dataset: smoker, age, bmi
+5. Train Accuracy:  0.8471074380165289
+Test Accuracy: 0.8032786885245902
+6. Train MSE: 37277681.70201868
+Test MSE: 33596915.95446934

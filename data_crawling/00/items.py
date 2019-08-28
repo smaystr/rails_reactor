@@ -1,0 +1,26 @@
+import scrapy
+
+
+class ApartmentItem(scrapy.Item):
+    title = scrapy.Field()
+    price_uah = scrapy.Field()
+    price_usd = scrapy.Field()
+    photos = scrapy.Field()
+    panoramas = scrapy.Field()
+    description = scrapy.Field()
+    street = scrapy.Field()
+    region = scrapy.Field()
+    area_total = scrapy.Field()
+    area_living = scrapy.Field()
+    rooms = scrapy.Field()
+    floor = scrapy.Field()
+    year = scrapy.Field()
+    heating = scrapy.Field()
+    walls = scrapy.Field()
+    seller_name = scrapy.Field()
+    seller_url = scrapy.Field()
+    verified_price = scrapy.Field()
+    verified_apartment = scrapy.Field()
+    latitude = scrapy.Field()
+    longitude = scrapy.Field()
+    publication_date = scrapy.Field()

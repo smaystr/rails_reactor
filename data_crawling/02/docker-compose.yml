@@ -1,0 +1,60 @@
+version: '3'
+services:
+    web:
+        image: 'web-application'
+        build: .
+        container_name: web_ml_rr
+        environment:
+            - DB_PASSWORD
+            - DB_USER
+            - DB_DATABASE
+        ports:
+            - '8088:8088'
+        volumes:
+            - .:/project
+        links:
+            - postgres
+        restart: always
+        depends_on:
+            - postgres
+        networks:
+            - pg_net
+    crawler:
+        image: 'crawler'
+        build:
+            context: '.'
+            dockerfile: 'Dockerfile-crawler'
+        container_name: web_ml_rr_crawler
+        environment:
+            - DB_HOST
+            - DB_PASSWORD
+            - DB_USER
+            - DB_DATABASE
+        volumes:
+          - .:/project
+        links:
+          - postgres
+        depends_on:
+          - postgres
+        networks:
+          - pg_net
+    postgres:
+        image: postgres:9.6
+        container_name: postgres_ml_rr
+        environment:
+            - DB_HOST
+            - DB_PASSWORD
+            - DB_USER
+            - DB_DATABASE
+        ports:
+            - "5432:5432"
+        restart: always
+        healthcheck:
+            test: ["CMD-SHELL", "pg_isready -U postgres"]
+            interval: 10s
+            timeout: 5s
+            retries: 5
+        networks:
+            - pg_net
+networks:
+    pg_net:

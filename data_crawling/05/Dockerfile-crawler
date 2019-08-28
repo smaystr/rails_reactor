@@ -1,0 +1,5 @@
+FROM python:3.7.3
+ADD . /kyrylo_kundik_hw
+WORKDIR /kyrylo_kundik_hw
+RUN pip3 install -e . && chmod +x ./crawler.sh
+CMD ["./crawler.sh"]

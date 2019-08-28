@@ -1,0 +1,11 @@
+{
+  "USE_GPU": false,
+  "LEARNING_RATE": 0.01,
+  "DATA_PATH_REGRESSION":"insurance", 
+  "DATA_PATH_CLASSIFICATION": "heart",
+  "BATCH_SIZE": 128,
+  "NUM_ITERATIONS": 250,
+  "C": 0.01,
+  "LAM": 1,
+  "OPTIMIZER" : "SGD"
+}

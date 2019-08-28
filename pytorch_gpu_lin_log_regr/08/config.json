@@ -1,0 +1,8 @@
+{
+    "lr": 0.01,
+    "batch": 100,
+    "penalty": "l2",
+    "C": 1,
+    "epoch": 1000,
+    "cuda": false
+}

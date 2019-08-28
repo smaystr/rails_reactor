@@ -1,0 +1,60 @@
+1.For which tasks is it better to use Logistic Regression instead of other models?
+
+Definitely for classification. Could be exteneded yo multiclass using OvO, OvA strategies.  
+I really liked the answer from StackOverFlow (https://datascience.stackexchange.com/questions/6048/decision-tree-or-logistic-regression)
+Basically less prone to overfiting comparing to DecisionTrees, (so usually LogRegs generalize better).
+It is also a better option if you want to extrapolate your knowledge about the data (for some samples outside of the training data range) in comparison with DTs.
+
+
+2.What are the most important parameters that you can tune in Linear Regression / Logistic Regression / SVM?
+
+Linear Regression:
+Well ,there isn't much params to tune in basic LR (according to SKlearn docs at least)..
+You can try Lasso or Ridge (which is basically L1 and L2 regularized LRs and play out with regularization terms)
+To introduce  a non-lineariry to your model, using PolynomialFeatures you can transform you data into high order features 
+and fit linear model on top of them.
+
+
+Logistic Regression:
+C - as an inverse regularization parameter, 
+class_weight - in case of imbalanced dataset should begiven a try.
+Different solvers.
+PolynomialFeatures can be used in a similar fashion. 
+
+SVM:
+different kernels - in order to transform features into the high-dimensional space (which presumably is linearly seperable). 
+C - as an inverse regularization parameter. 
+class_weight - in case of imbalanced dataset should begiven a try.
+
+3. How does parameter C influence regularisation in Logistic Regression?
+Iverse regularization param. Lambda = 1/c, so as C decresas, regularization power actually increases and vice verca. 
+
+4. I interpret feature importance as the absolute value of an appropriate weight associated with a feature.
+The higher the absolute value of the weight, the more it contributes to the output of the model. 
+
+For insurance dataset:
+
+Weight_value, feature_name
+[11825.564427880616, 'smoker'],
+[3609.14901847909, 'age'],
+[2054.8850633474476, 'bmi']
+
+For heart dataset:
+
+Weight_value, feature_name
+[0.6264213993666329, 'cp_0'],
+[0.5733447144337579, 'thal_2'],
+[0.5044666022207756, 'thal_3'],
+[0.4079750034903715, 'ca']
+
+5.Which accuracy metrics did you receive on train and test sets for Heart Disease UCI dataset?
+train_accuracy is 0.8512396694214877
+test accuracy is 0.8524590163934426
+
+6.Which MSE did you receive on train and test datasets for Medical Cost Personal?
+train MSE is 37277681
+test MSE is 33596954
+
+7. RandomForest with no tuning whatsoever resulted in 20872689 MSE on test_set
+
+

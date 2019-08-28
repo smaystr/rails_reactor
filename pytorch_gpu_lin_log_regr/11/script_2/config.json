@@ -1,0 +1,7 @@
+{
+    "alpha": 1e-1,
+    "iters": 100,
+    "reg": "",
+    "C": 1.0,
+    "batch_size": 32
+}

@@ -1,0 +1,85 @@
+{
+    "predicted_price": [
+        2102254.2454077434
+    ]
+},
+{
+    "mean_area": 69.62591183000318,
+    "mean_price": 1546431.90355905,
+    "number_of_apartments": 44143,
+    "std_area": 626.041320865887,
+    "std_price": 2467628.23653965
+},
+{
+    "apartments": [
+        {
+            "absolute_url": "https://dom.ria.com/ru/realty-perevireno-prodaja-kvartira-vinnitsa-staryiy-gorod-pokryishkina-ulitsa-15767616.html",
+            "apartment_area": 52,
+            "city_id": 1,
+            "city_name": "Винница",
+            "construction_period": "Сдача в 2019",
+            "description": "Продаю власну квартиру в звязку з переїздом.Європейський  квартал, ближній Старий город, 4 поверх, вікна в двір.",
+            "floor_located": 4,
+            "heating": "индивидуальное",
+            "id": 15767616,
+            "image_urls": [
+                "https://cdn.riastatic.com/photos/dom/panoramas/151/15164/1516426/1516426l.jpg?v=13085",
+                "https://cdn.riastatic.com/photos/dom/panoramas/151/15164/1516425/1516425l.jpg?v=13085",
+                "https://cdn.riastatic.com/photos/dom/panoramas/151/15164/1516427/1516427l.jpg?v=13085",
+                "https://cdn.riastatic.com/photos/dom/panoramas/151/15164/1516428/1516428l.jpg?v=13085",
+                "https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-vinnitsa-staryiy-gorod-pokryishkina-ulitsa__99552463f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-vinnitsa-staryiy-gorod-pokryishkina-ulitsa__99317824f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-vinnitsa-staryiy-gorod-pokryishkina-ulitsa__99546235f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/perevireno-prodaja-kvartira-vinnitsa-staryiy-gorod-pokryishkina-ulitsa__99546237f.jpg"
+            ],
+            "latitude": null,
+            "longitude": null,
+            "number_of_floors_in_the_house": 12,
+            "number_rooms": 1,
+            "offer_type": "от собственника",
+            "position": 71,
+            "price_uah": 573980.0,
+            "price_usd": 22500.0,
+            "tags": [
+                "Первичное жилье"
+            ],
+            "title": "Продаю 1к квартиру 52 кв. м, Покрышкина улица 8В   в районе Старый город в Виннице",
+            "wall_type": "кирпич"
+        },
+        {
+            "absolute_url": "https://dom.ria.com/ru/realty-prodaja-kvartira-kiev-darnitskiy-15795486.html",
+            "apartment_area": 42,
+            "city_id": 10,
+            "city_name": "Киев",
+            "construction_period": "Сдача в 2018",
+            "description": "Купить квартиру на Позняках от 800 000 гривен!  “Традиция” - новый комплекс комфорт-класса из четырех домов , возводится в Дарницком районе Киева на ул. Е. Пчилки, 3. -  Рациональная планировка квартиры площадью 41, 98 кв.м. - Окна с энергосберегающим напылением и заполнением аргоном. - При строительстве комплекса используются только сертифицированные материалы. - На территории ЖК собственный детский сад. - Развитая инфраструктура. - В шаговой доступности много учебных учреждений и детских садов. - Рядом с ЖК находятся торгово-развлекательные центры “Пирамида”, “Аладдин”, “InSilver”, мегамаркеты “Билла”, “Эпицентр”, “Meтрo”, паркинги, кафе, а также большой медицинский центр “Борис”. - Также в пешей доступности есть фитнес-клуб “Sport Life” c огромным бассейном и полным циклом фитнес- и велнес-услуг. - Рядом с ЖК парк “Позняки” и озеро “Солнечное”. - Удобная транспортная развязка.  - 8 минут на машине до станции метро “Позняки”. -  Стоимость стартует от 21 850 грн за кв.м. - В ЖК действуют постоянные скидки и временные акции.     «Традиция» – это комплекс комфорт-класса на все 100%!  «Интергал-Буд» - надежная строительная компания, которая работает для людей.  Возведено и сдано в эксплуатацию более 126 домов. Компания предлагает: - Собственные долгосрочные программы рассрочки с социальными гарантиями. - Услуга trade-in- продажа старой квартиры в счет приобретения новой. - Услуга «ремонт под ключ» - возможность значительно сэкономить время и деньги, получив квартиру с готовым ремонтом и гарантиями качества на строительные материалы и работы.",
+            "floor_located": 14,
+            "heating": "централизованное",
+            "id": 15795486,
+            "image_urls": [
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99628837fl.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99628837f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99628850f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99628894f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99628934f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99628982f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99629018f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99629046f.jpg",
+                "https://cdn.riastatic.com/photosnew/dom/photo/prodaja-kvartira-kiev-darnitskiy__99629074f.jpg"
+            ],
+            "latitude": null,
+            "longitude": null,
+            "number_of_floors_in_the_house": 25,
+            "number_rooms": 1,
+            "offer_type": null,
+            "position": 57,
+            "price_uah": 917263.0,
+            "price_usd": 35957.0,
+            "tags": [
+                "Вторичное жилье"
+            ],
+            "title": "Продаю 1к квартиру 41.98 кв. м,    в районе Дарницкий в Киеве",
+            "wall_type": "кирпич"
+        }
+    ]
+},

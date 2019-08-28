@@ -1,0 +1,12 @@
+FROM python:3.7.3
+EXPOSE 8080
+ADD . /project
+WORKDIR /project
+ENV DB_HOST localhost
+ENV DB_USER admin
+ENV DB_PASSWORD 16481657
+ENV DB_NAME dev
+RUN apk add --no-cache gcc musl-dev linux-headers
+RUN pip install --trusted-host pypi.python.org -r requirements.crawl.txt
+COPY . .
+CMD ["./scripts/crawler.sh"]

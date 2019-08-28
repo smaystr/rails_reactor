@@ -1,0 +1,46 @@
+1. For which tasks is it better to use Logistic Regression instead of other models?
+
+Mostly for classification tasks. Generally, Logistic Regression models are to predict the probability of a 
+certain class or event existing such as pass/fail, win/lose, alive/dead or healthy/sick.
+
+2. What are the most important parameters that you can tune in Linear Regression / Logistic Regression / SVM?
+
+Linear Regression:
+C - inverse regularization parameter
+
+Logistic Regression:
+C - inverse regularization parameter
+
+SVM:
+Different SVM Kernels,
+C - inverse regularization parameter,
+Epsilon - determines the level of accuracy of the approximated function.
+
+3. How does parameter C influence regularisation in Logistic Regression?
+
+While C is increasing the regularization level is decreasing. Cause of reverse proportion.
+And if C is decreasing the regularization level is increasing. 
+
+4. Which top 3 features are the most important for each data sets?
+
+(from model theta)
+
+Heart model:
+(0.6473559862606401, 'cp_0')
+(0.5608279924771862, 'ca_0')
+(0.5541802163574019, 'thal_2')
+
+Insurance model:
+(15856.46489124599, 'smoker_yes')
+(6977.521824815524, 'smoker_no')
+(4455.630194914714, 'sex_male')
+
+5. Which accuracy metrics did you receive on train and test sets for Heart Disease UCI dataset?
+
+My model score for test data is: 0.8688524590163934
+My model score for train data is: 0.871900826446281
+
+6. Which MSE did you receive on train and test datasets for Medical Cost Personal?
+
+MSE for test data is : 33945862.33086401
+MSE for train data is : 37393977.63706618 

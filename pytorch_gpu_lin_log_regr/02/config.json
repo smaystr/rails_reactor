@@ -1,0 +1,12 @@
+{
+  "alpha": 1e-2,
+  "lambda": 4.2e-3,
+  "beta1": 0.9,
+  "beta2": 0.99,
+  "batch_size": 128,
+  "num_epochs": 1000,
+  "print_step": 50,
+  "optimizer": "SGD",
+  "test_size": 0.2,
+  "validation_size": 0.1
+}

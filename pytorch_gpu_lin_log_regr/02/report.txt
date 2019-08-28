@@ -1,0 +1,9 @@
+The Adam optimizer converges to the local minimum much faster than SGD. In the same time, the accuracy level is really on the same level, as in the SGD algorithm case, and it returns the approximate value of 0.88.
+
+Increasing/Decreasing batch size
+If we increase the batch size, then the loss_value/batch-size graph will be more smooth, it will converge without any fluctuations (waverings), but in the same time, the value of working_time per patch will be increased (logically). 
+If we decrease the batch size, all the parameters will have the vice versa characteristics, mentioned before.
+(Worked out on the home task datasets, doubling the batch size)
+
+What about runtime on GPU
+I've tested the iris dataset on CPU/GPU, the dataset is really small, that is why, I received the same results in time on both of those processors. If we test the GPU and CPU speed on really big datasets, we will receive the great difference of speed between them.

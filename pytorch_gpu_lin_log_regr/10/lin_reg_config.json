@@ -1,0 +1,6 @@
+{
+    "model": "linear_regression",
+    "lr": 1e-2,
+    "epochs": 20000,
+    "batch_size": 500
+}

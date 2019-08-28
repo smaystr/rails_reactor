@@ -1,0 +1,6 @@
+{
+    "model": "logistic_regression",
+    "lr": 1e-2,
+    "epochs": 10000,
+    "batch_size": 100
+}

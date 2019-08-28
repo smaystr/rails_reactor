@@ -1,0 +1,10 @@
+flask==1.1.1
+sqlalchemy==1.3.7
+beautifulsoup4==4.8.0
+requests==2.22.0
+psycopg2==2.8.3
+catboost==0.16.5
+python-dotenv==0.10.3
+torch==1.2.0
+pymystem3==0.2.0
+gensim==3.8.0
