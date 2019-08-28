@@ -1,0 +1,11 @@
+data
+*~
+*.dat
+*.png
+*.jpg
+*.txt
+*.html
+*.log
+*.iml
+tests.py
+.directory
