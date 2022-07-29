@@ -1,4 +1,4 @@
-Scrapy==1.7.2
+Scrapy==2.6.2
 psycopg2==2.8.3
 Flask==1.1.1
 Flask-Migrate==2.5.2
